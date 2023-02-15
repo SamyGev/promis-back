@@ -16,7 +16,7 @@ const Lamp = db.define('lamp', {
     } ,
     price:{
         type:DataTypes.FLOAT
-    } 
+    }
   });
 
   module.exports = Lamp
